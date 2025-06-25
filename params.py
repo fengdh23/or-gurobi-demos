@@ -38,3 +38,6 @@ del m
 bestModel.Params.TimeLimit = float("inf")
 bestModel.optimize()
 print(f"Solved with MIPFocus: {bestModel.Params.MIPFocus}")
+
+# python .\params.py C:\gurobi1202\win64\examples\data\p0033.lp ide 中脚本形参
+# 全路径可以？C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe D:\code\python\or-gurobi-demos\params.py C:\gurobi1202\win64\examples\data\p0033.lp
